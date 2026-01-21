@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "UploadFeature",
-    "slug": "UploadFeature",
+    "slug": "uploadfeature",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,18 +13,24 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.uploadfeature.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "package": "com.uploadfeature.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "edb6ff85-9351-43dd-82f3-694695537ce5"
+      }
+    },
+    "owner": "mrctbs"
   }
 }
